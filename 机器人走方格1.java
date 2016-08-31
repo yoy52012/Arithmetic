@@ -6,7 +6,7 @@ import java.util.*;
  *
  * 思路：
  * 走出一条路径实际是要走x+y步，故所求总的路径数为从x+y步里面选出x步为向右移动。
- * 由排列组合的知识可知：C（x+y,x）=(x+y)/x!*y!
+ * 由排列组合的知识可知：C（x+y,x）=(x+y)!/x!*y!
  */
 public class Robot {
     public int countWays(int x, int y) {
